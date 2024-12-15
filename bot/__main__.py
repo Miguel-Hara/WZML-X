@@ -1,3 +1,6 @@
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 from time import time, monotonic
 from datetime import datetime
 from sys import executable
